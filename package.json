@@ -1,0 +1,52 @@
+{
+  "name": "@magic-modules/quote",
+  "version": "0.0.1",
+  "author": "Wizards & Witches",
+  "homepage": "https://magic-modules.github.io/quote",
+  "license": "AGPL-3.0",
+  "description": "@magic Quote module. adds “” around the quote and sets font-style: italic.",
+  "main": "src/index.mjs",
+  "engines": {
+    "node": ">=14.15.4"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs example config.js",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve --watch src",
+    "dev": "magic dev --watch src",
+    "calls": "calls"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic-modules/quote.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic-modules/quote/issues"
+  },
+  "devDependencies": {
+    "@magic-modules/light-switch": "0.0.10",
+    "@magic-modules/no-spy": "0.0.6",
+    "@magic-modules/pre": "0.0.10",
+    "@magic-themes/docs": "0.0.13",
+    "@magic/core": "0.0.105",
+    "@magic/format": "0.0.21",
+    "@magic/test": "0.1.62"
+  },
+  "keywords": [
+    "magic",
+    "module",
+    "quote"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
