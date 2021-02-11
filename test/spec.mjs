@@ -10,7 +10,7 @@ export default [
   {
     fn: () => Quote.style,
     expect: is.object,
-    info: 'expect Quote.style to be an object'
+    info: 'expect Quote.style to be an object',
   },
   {
     fn: () => Quote.style.fontStyle === 'italic',
