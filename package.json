@@ -6,6 +6,7 @@
   "license": "AGPL-3.0",
   "description": "@magic Quote module. adds “” around the quote and sets font-style: italic.",
   "main": "src/index.mjs",
+  "type": "module",
   "engines": {
     "node": ">=14.15.4"
   },
@@ -34,9 +35,9 @@
     "@magic-modules/no-spy": "0.0.6",
     "@magic-modules/pre": "0.0.10",
     "@magic-themes/docs": "0.0.13",
-    "@magic/core": "0.0.105",
-    "@magic/format": "0.0.21",
-    "@magic/test": "0.1.62"
+    "@magic/core": "0.0.125",
+    "@magic/format": "0.0.24",
+    "@magic/test": "0.1.70"
   },
   "keywords": [
     "magic",
