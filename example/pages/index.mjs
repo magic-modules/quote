@@ -28,7 +28,7 @@ export const View = state => [
 
   Quote('Insightful Quote String'),
 
-  h2('source'),
+  h2({ id: 'source' }, 'source'),
 
   p([
     'the source for this page is in the ',
