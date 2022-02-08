@@ -1,7 +1,7 @@
 import { is } from '@magic/test'
 import * as Quote from '../src/index.mjs'
 
-const expectedHtml = ['i', { class: 'Quote' }, '“Testing”']
+const expectedHtml = '<i class="Quote">“Testing”</i>'
 
 const html = true
 
